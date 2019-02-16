@@ -1,0 +1,18 @@
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes,extraRequire,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ */
+import { filter } from 'rxjs/operators';
+/**
+ * @param {...?} allowedTypes
+ * @return {?}
+ */
+export function ofAction(...allowedTypes) {
+    /** @type {?} */
+    const allowedMap = {};
+    allowedTypes.forEach(klass => (allowedMap[new klass().type] = true));
+    return filter((action) => {
+        return allowedMap[action.type];
+    });
+}
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoib2YtYWN0aW9uLmpzIiwic291cmNlUm9vdCI6Im5nOi8vbmdyeC1hY3Rpb25zLyIsInNvdXJjZXMiOlsib2YtYWN0aW9uLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7Ozs7QUFDQSxPQUFPLEVBQUUsTUFBTSxFQUFFLE1BQU0sZ0JBQWdCLENBQUM7Ozs7O0FBT3hDLE1BQU0sVUFBVSxRQUFRLENBQUMsR0FBRyxZQUEwQjs7VUFDOUMsVUFBVSxHQUFHLEVBQUU7SUFDckIsWUFBWSxDQUFDLE9BQU8sQ0FBQyxLQUFLLENBQUMsRUFBRSxDQUFDLENBQUMsVUFBVSxDQUFDLElBQUksS0FBSyxFQUFFLENBQUMsSUFBSSxDQUFDLEdBQUcsSUFBSSxDQUFDLENBQUMsQ0FBQztJQUNyRSxPQUFPLE1BQU0sQ0FBQyxDQUFDLE1BQWMsRUFBRSxFQUFFO1FBQy9CLE9BQU8sVUFBVSxDQUFDLE1BQU0sQ0FBQyxJQUFJLENBQUMsQ0FBQztJQUNqQyxDQUFDLENBQUMsQ0FBQztBQUNMLENBQUMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBBY3Rpb24gfSBmcm9tICdAbmdyeC9zdG9yZSc7XG5pbXBvcnQgeyBmaWx0ZXIgfSBmcm9tICdyeGpzL29wZXJhdG9ycyc7XG5pbXBvcnQgeyBPcGVyYXRvckZ1bmN0aW9uIH0gZnJvbSAncnhqcyc7XG5cbmltcG9ydCB7IEFjdGlvblR5cGUgfSBmcm9tICcuL3N5bWJvbHMnO1xuXG5leHBvcnQgZnVuY3Rpb24gb2ZBY3Rpb248VCBleHRlbmRzIEFjdGlvbj4oYWxsb3dlZFR5cGU6IEFjdGlvblR5cGU8VD4pOiBPcGVyYXRvckZ1bmN0aW9uPEFjdGlvbiwgVD47XG5leHBvcnQgZnVuY3Rpb24gb2ZBY3Rpb248VCBleHRlbmRzIEFjdGlvbj4oLi4uYWxsb3dlZFR5cGVzOiBBY3Rpb25UeXBlW10pOiBPcGVyYXRvckZ1bmN0aW9uPEFjdGlvbiwgVD47XG5leHBvcnQgZnVuY3Rpb24gb2ZBY3Rpb24oLi4uYWxsb3dlZFR5cGVzOiBBY3Rpb25UeXBlW10pOiBPcGVyYXRvckZ1bmN0aW9uPEFjdGlvbiwgQWN0aW9uPiB7XG4gIGNvbnN0IGFsbG93ZWRNYXAgPSB7fTtcbiAgYWxsb3dlZFR5cGVzLmZvckVhY2goa2xhc3MgPT4gKGFsbG93ZWRNYXBbbmV3IGtsYXNzKCkudHlwZV0gPSB0cnVlKSk7XG4gIHJldHVybiBmaWx0ZXIoKGFjdGlvbjogQWN0aW9uKSA9PiB7XG4gICAgcmV0dXJuIGFsbG93ZWRNYXBbYWN0aW9uLnR5cGVdO1xuICB9KTtcbn1cbiJdfQ==

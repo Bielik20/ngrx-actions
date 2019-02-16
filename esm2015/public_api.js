@@ -1,0 +1,12 @@
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes,extraRequire,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ */
+export { NgrxActionsModule } from './module';
+export { Action } from './action';
+export { ofAction } from './of-action';
+export { Store } from './store';
+export { Select, NgrxSelect } from './select';
+export { createReducer } from './factory';
+export { Effect } from './effect';
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHVibGljX2FwaS5qcyIsInNvdXJjZVJvb3QiOiJuZzovL25ncngtYWN0aW9ucy8iLCJzb3VyY2VzIjpbInB1YmxpY19hcGkudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7OztBQUFBLE9BQU8sRUFBRSxpQkFBaUIsRUFBRSxNQUFNLFVBQVUsQ0FBQztBQUM3QyxPQUFPLEVBQUUsTUFBTSxFQUFFLE1BQU0sVUFBVSxDQUFDO0FBQ2xDLE9BQU8sRUFBRSxRQUFRLEVBQUUsTUFBTSxhQUFhLENBQUM7QUFDdkMsT0FBTyxFQUFFLEtBQUssRUFBRSxNQUFNLFNBQVMsQ0FBQztBQUNoQyxPQUFPLEVBQUUsTUFBTSxFQUFFLFVBQVUsRUFBRSxNQUFNLFVBQVUsQ0FBQztBQUM5QyxPQUFPLEVBQUUsYUFBYSxFQUFFLE1BQU0sV0FBVyxDQUFDO0FBQzFDLE9BQU8sRUFBRSxNQUFNLEVBQUUsTUFBTSxVQUFVLENBQUMiLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgeyBOZ3J4QWN0aW9uc01vZHVsZSB9IGZyb20gJy4vbW9kdWxlJztcbmV4cG9ydCB7IEFjdGlvbiB9IGZyb20gJy4vYWN0aW9uJztcbmV4cG9ydCB7IG9mQWN0aW9uIH0gZnJvbSAnLi9vZi1hY3Rpb24nO1xuZXhwb3J0IHsgU3RvcmUgfSBmcm9tICcuL3N0b3JlJztcbmV4cG9ydCB7IFNlbGVjdCwgTmdyeFNlbGVjdCB9IGZyb20gJy4vc2VsZWN0JztcbmV4cG9ydCB7IGNyZWF0ZVJlZHVjZXIgfSBmcm9tICcuL2ZhY3RvcnknO1xuZXhwb3J0IHsgRWZmZWN0IH0gZnJvbSAnLi9lZmZlY3QnO1xuIl19
