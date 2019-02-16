@@ -1,5 +1,14 @@
 # NGRX Actions
 
+## Important
+
+This is a fork of the original repository. Since author stopped releasing updated I decided to work with my own copy.
+I am releasing this via GitHub "release" branch. It is for my personal use only so it may (and likely will be unstable).
+Still you can use it if you like. 
+If you want to create your own release, fork this repo, modify `release.sh` to point to your fork, and release using `sh release.sh`.
+
+---
+
 Actions/reducer utility for NGRX. It provides a handful of functions to make NGRX/Redux more Angular-tastic.
 
 - `@Store(MyInitialState)`: Decorator for default state of a store.
